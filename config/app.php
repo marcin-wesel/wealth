@@ -123,4 +123,18 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    /*
+    |--------------------------------------------------------------------------
+    | Application Owner
+    |--------------------------------------------------------------------------
+    |
+    | This application has a single user, created by the database seeder
+    | from these credentials.
+    |
+    */
+
+    'owner_email' => env('APP_OWNER_EMAIL'),
+
+    'owner_password' => env('APP_OWNER_PASSWORD'),
+
 ];
