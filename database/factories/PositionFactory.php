@@ -18,8 +18,8 @@ class PositionFactory extends Factory
     public function definition(): array
     {
         return [
-            'name' => fake()->words(3, true),
-            'value' => fake()->randomFloat(2, 0, 100000),
+            'name' => 'Pozycja majątku',
+            'value' => 100,
         ];
     }
 }

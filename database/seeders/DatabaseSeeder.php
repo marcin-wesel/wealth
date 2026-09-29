@@ -15,7 +15,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        User::factory()->create([
+        User::forceCreate([
             'name' => 'Właściciel',
             'email' => config('app.owner_email'),
             'password' => config('app.owner_password'),
